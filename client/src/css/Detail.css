@@ -1,0 +1,90 @@
+.fondoDetail{
+    background-image: url("https://cdn.discordapp.com/attachments/472820127797084213/967175679223402607/poolo.jpg");
+    background-size: cover;  /*Escala la imagen al mayor tamaño posible sin estirarla.*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.contenedorGeneral{
+
+    background-color: #e6215f37 ;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 3rem auto;
+    padding-top: 5px;
+}
+
+.contenedorSecundario{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #00a2f0;
+    background-color: rgba(255, 255, 255, 0.287);
+    box-shadow: 1px 1px 18px #080808;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.tituloName{
+    font-weight: bold;
+    font-size: 3.3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image{
+    
+    width: 60%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    padding: 0;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.767);
+    border-radius: 20px;
+}
+
+.items{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #191630;
+}
+
+.descriptionDetail{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    align-items: center;
+    font-weight: bold;
+    min-width: 10px;
+    margin-top: 15px;
+    text-align: justify;
+    padding-right: 3%;
+    padding-left: 5%;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding-bottom: 1%;
+}
+
+.buttonBack{
+    padding: 1rem;
+    background-color: #191630 ;
+    color: #42BCD5;
+    font-size: 1.5 rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 0.5rem;
+    border: solid 1px #E6215E;
+    margin-bottom: 1rem;
+}
+
+.buttonBack:hover{
+    cursor: pointer;
+    background-color: #E6215E;
+    transform: translateY(-4px);
+}

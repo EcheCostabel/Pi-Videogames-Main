@@ -1,0 +1,53 @@
+.ul {
+    padding-left: 0px;
+}
+
+.li {
+    margin-bottom: 2%;
+    display: inline-flex;
+    justify-content: space-around;
+    height: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.botonPaginado {
+    border-radius: 0.5rem;
+    border: solid 1px #E6215E;
+    font-family: "Staatliches", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3D3A8F;
+    background-color: #E6215E;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 13px;
+    margin: 10px 10px;
+    box-shadow: 1px 1px 15px  #42bcd577;
+    
+  }
+
+  .botonPaginado:hover {
+    cursor: pointer;
+    background-color: #191630;
+    color: #E6215E ;
+  }
+
+  .buttonPN{
+
+    background-color: #191630 ;
+    color: #42BCD5;
+    font-size: 1.5 rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 4px 13px;
+    border: solid 1px #E6215E;
+    margin: 2rem auto;
+  }
+
+  .buttonPN:hover {
+    cursor: pointer;
+    background-color: #191630;
+    color: #E6215E ;
+  }

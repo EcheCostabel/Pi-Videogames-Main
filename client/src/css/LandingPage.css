@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+/* .div{
+ display: flex;
+ justify-content:flex-end
+} */
+
+.background {
+    height: 100vh;
+    background: url("./background.jpg");
+    background-size: cover;
+    background-color: rgba(37, 37, 131, 0.505);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.henry {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items:flex-end
+  
+}
+.maquina{
+  position: relative;
+}
+
+.maquina::after{
+  content: '';
+  border-left: 2px solid black;
+  background: rgb(211, 210, 210);
+  right: 0;
+ 
+  height: 100%;
+  position: absolute;
+  animation: maquinaescribir 2s infinite alternate steps(19);
+}
+
+@keyframes maquinaescribir{
+  from{
+    width: 100%;
+  } to{
+    width: 0;
+  }
+}
+.title {
+    margin-left: 978px;
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+}
+
+.title2 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: box-shadow 0.2s ease-in-out;
+ border: none;
+}
+
+.title2:hover {
+  box-shadow: 0 0 40px rgb(123, 106, 134) inset;
+  /* transition: all 0.8s ease; */
+  /* color: #9ba5ff;
+  cursor: pointer;
+  font-size: 200%; */
+  
+};

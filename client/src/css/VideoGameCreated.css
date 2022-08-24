@@ -1,0 +1,143 @@
+.fondoVGCreate {
+    background-image: url("./play.jpg");
+    background-size: cover;  /*Escala la imagen al mayor tamaño posible sin estirarla.*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.contenedorAll{
+    padding-bottom: 2rem;
+    width: 80%;
+    background-color: transparent ;
+    border-radius: 18px;
+    margin: 2rem auto;
+
+}
+
+@media(min-width:768px){
+    .contenedorAll{
+       max-width: 80rem;
+    }
+}
+
+.ul {
+    color: white;
+}
+/*#42bcd582*/
+
+.buttonBackHome{
+    padding: 1rem;
+    background-color: #191630 ;
+    color: #42BCD5;
+    font-size: 1.5 rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 0.5rem;
+    border: solid 1px #E6215E;
+    margin: 2rem auto;
+}
+.buttonBackHome:hover{
+    cursor: pointer;
+    background-color: #E6215E;
+}
+
+.titulo{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.item {
+    margin-bottom: 2%;
+}
+
+.label{
+    letter-spacing: 5px;
+    color:#fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.input{
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 1px #E6215E;
+    background-color: #191630;
+    color: #42BCD5;
+    font-size: 16px;
+}
+@media(min-width:768px){
+    .input{
+       max-width: 50rem;
+    }
+}
+
+.inputDescription{
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 1px #E6215E;
+    background-color: #191630;
+    color: #42BCD5;
+    font-size: 16px;
+}
+@media(min-width:768px){
+    .inputDescription{
+       max-width: 50rem;
+    }
+}
+
+
+.select {
+    font-weight: bold;
+    margin: 1rem auto;
+    display: block;
+    padding: 1rem;
+    width: 60%;
+    background-color: #191630;
+    border-radius: 0.5rem;
+    border: solid 1px #191630;
+    color: #E6215E;
+}
+@media(min-width:768px){
+    .select{
+       max-width: 50rem;
+    }
+}
+
+
+.listaGP {
+    display: inline-flex;
+    font-weight: bold;
+    color:white
+}
+
+.divGP{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonx {
+    border-radius: 0.7rem;
+    border: solid 1px #191630;
+    background-color: #42BCD5;
+}
+
+.buttonCreate{
+    padding: 1rem;
+    background-color: #191630 ;
+    color: #42BCD5;
+    font-size: 1.5 rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 0.5rem;
+    border: solid 1px #E6215E;
+    
+}
