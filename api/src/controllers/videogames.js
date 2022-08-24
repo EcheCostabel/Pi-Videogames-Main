@@ -52,6 +52,7 @@ const getDbInfo = async () => { //info de la base de datos.
     return mapInfoDb;
 };
 
+
 const getAllVideogames = async () =>{
     const apiInfo = await getApiInfo();
     const dbInfo = await getDbInfo();

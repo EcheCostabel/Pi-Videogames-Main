@@ -65,6 +65,7 @@ router.post('/', async (req , res) => {
         platforms,
         createdInDb,
     } = req.body
+    
 
     const createVideoGame = await Videogame.create({ //creo el personaje desde la base db
         name,

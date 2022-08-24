@@ -4,6 +4,7 @@ const axios = require("axios");
 const router = Router();
 const { API_KEY } = process.env;
 
+
 router.get("/" ,async(req , res) => {
 // me traigo los datos de la api para guardarlos en la db y sacarlos de la db. Esto lo deberia hacer 1 sola vez.
     try {
