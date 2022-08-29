@@ -1,17 +1,17 @@
 .fondoDetail{
-    background-image: url("https://cdn.discordapp.com/attachments/472820127797084213/967175679223402607/poolo.jpg");
+    background-image: url("play.jpg");
     background-size: cover;  /*Escala la imagen al mayor tamaño posible sin estirarla.*/
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-attachment: fixed;
     overflow: auto;
 }
 
 .contenedorGeneral{
 
-    background-color: #e6215f37 ;
+    background-color: #92909137 ;
     box-sizing: border-box;
     border-radius: 30px;
     margin: 3rem auto;

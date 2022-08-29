@@ -32,7 +32,7 @@ const getApiInfo = async () => {
 //attributes
 const getDbInfo = async () => { //info de la base de datos.
     const infoDb = await Videogame.findAll({
-        include:{          // usamos el include de sequelize para relacionar los modelos. Si no lo uso, no me traeria los videojuegos con los generos. 
+        include:{          // uso el include de sequelize para relacionar los modelos. Si no lo uso, no me traeria los videojuegos con los generos. 
             model: Genre,
         }
     })

@@ -68,18 +68,12 @@ function Home() {
       <div className='fondoLoading'>
         <div className='fondoLoadingContenido'>
           
+              <h1 className='h1'>Videogames</h1>
           <div className='clase2'>
             <div className='contenidoTitulo'>
-              <h1 className='titulo'>Videogames</h1>
               
               <SerchBar />
-              <Paginado
-            videoGamePerPage={videoGamePerPage}
-            allVideoGames={allVideoGames.length}
-            paginado={paginado}
-            currentPage={currentPage}
-            
-          />
+
 
 
 
@@ -90,6 +84,7 @@ function Home() {
                <button className='buttonSecond'>Crear Videojuego</button>
              </Link>
               <button className='button' onClick={handleClick}>Recargar Videojuegos</button>
+             
               <select
               className='select'
               defaultValue='Order'
@@ -99,7 +94,7 @@ function Home() {
               <option value='Asc'>A-Z</option>
               <option value='Desc'>Z-A</option>
             </select>
-
+ 
             <select
               className='select'
               defaultValue='Rating'
@@ -162,6 +157,13 @@ function Home() {
         </div>
       </div>
     </div>
+    <Paginado
+videoGamePerPage={videoGamePerPage}
+allVideoGames={allVideoGames.length}
+paginado={paginado}
+currentPage={currentPage}
+
+/>
   </div>
 
   )

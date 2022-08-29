@@ -16,10 +16,10 @@ function SerchBar() {
     setInput(e.target.value)
     if(!re.exec(e.target.value)){
       e.target.value.length > 40 ? setErrors({
-        name: "invalid length"
+        name: "Invalid length"
       })
       :  setErrors({
-        name: "invalid character"
+        name: "Invalid character"
       })
     }else {
       setErrors({
@@ -31,7 +31,7 @@ function SerchBar() {
     e.preventDefault()
     if(input === ""){
       setErrors({
-        name: "this field is required"
+        name: "This field is required"
       })
     }else {
       dispatch(getNameVideogames(input))

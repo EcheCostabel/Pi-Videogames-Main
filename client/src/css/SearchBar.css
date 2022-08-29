@@ -15,7 +15,9 @@
     display: flex;
     /* grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 0px 10px; */
-    height: 20px;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
     margin-top: 0px;
 
 }
@@ -37,7 +39,9 @@
 } */}
 
 .button {
-    height: 10px;
+    display: flex;
+    align-items: center;
+    height: 20px;
     padding: 1rem;
     background-color: #191630 ;
     color: #42BCD5;

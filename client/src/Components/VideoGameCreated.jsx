@@ -110,7 +110,7 @@ function VideoGameCreated() {
       <Link to="/home">
         <button className='buttonBackHome' >Go back home</button>
       </Link>
-      <h1 className='titulo'>Create your video game</h1>
+      <h1 className='titulo'>Create your videogame</h1>
       <form onSubmit={handleSubmit}>
         <div className='item'>
           <label className='label'>Name: </label>

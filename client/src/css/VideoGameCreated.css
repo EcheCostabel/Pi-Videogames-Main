@@ -128,6 +128,7 @@
     border-radius: 0.7rem;
     border: solid 1px #191630;
     background-color: #42BCD5;
+    cursor: pointer;
 }
 
 .buttonCreate{
@@ -139,5 +140,6 @@
     font-weight: 900;
     border-radius: 0.5rem;
     border: solid 1px #E6215E;
+    cursor: pointer;
     
 }

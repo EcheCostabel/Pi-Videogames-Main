@@ -14,12 +14,13 @@ function Paginado({videoGamePerPage,allVideoGames, paginado,currentPage}) {
   return (
     <nav>
       <ul className='ul'>
-      {
+      {/* {
         currentPage - 1 > 0 ? (
           <button className='buttonPN' onClick={() => paginado(currentPage - 1)} >Prev</button>
         )
         : null
-      }
+      } */}
+
       { 
         pageNumbers && pageNumbers.map(number => (
           <li className='li' key={number}>
@@ -27,12 +28,13 @@ function Paginado({videoGamePerPage,allVideoGames, paginado,currentPage}) {
           </li>
         ))
       }
-      {
+
+      {/* {
         currentPage < Paginas ? (
           <button className='buttonPN' onClick={() => paginado(currentPage + 1)} >Next</button>
         )
         : null
-      }
+      } */}
       </ul>
     </nav>
   )

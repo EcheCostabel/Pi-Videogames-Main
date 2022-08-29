@@ -27,7 +27,7 @@ function Detail() {
           <div className= 'contenedorSecundario'>
             <h4 className= 'items'>🏆Rating: {myVideogame.rating} </h4>
             <h4 className= 'items'>Released: {myVideogame.released}</h4>
-            <h4 className= 'items'>Platform: {myVideogame.platforms}</h4>
+            <h4 className= 'items'>Platform: {myVideogame.platforms}</h4>  
             <h4 className= 'items'>
               Genres: 
               {myVideogame.genres?.map((g) => g.name).join(", ")}

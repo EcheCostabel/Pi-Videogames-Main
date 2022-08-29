@@ -7,6 +7,7 @@
     height: 100vh;
     background-attachment: fixed;
     overflow: auto;
+  
   }
  
 
@@ -83,9 +84,9 @@
   transform: translateY(-4px);
 }
 
-.titulo {
-  color: #fff;
-  font-size: 4rem;
+.h1 {
+  color: #3D3A8F ;
+  font-size: 3rem;
   font-weight: bold;
   margin: 3rem auto;
   height: 20px;
