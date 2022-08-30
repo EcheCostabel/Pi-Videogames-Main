@@ -33,18 +33,7 @@
     color: #E6215E ;
   }
 
-  .buttonPN{
 
-    background-color: #191630 ;
-    color: #42BCD5;
-    font-size: 1.5 rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    border-radius: 2px;
-    padding: 4px 13px;
-    border: solid 1px #E6215E;
-    margin: 2rem auto;
-  }
 
   .buttonPN:hover {
     cursor: pointer;

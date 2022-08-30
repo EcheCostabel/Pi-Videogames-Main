@@ -84,13 +84,13 @@
   transform: translateY(-4px);
 }
 
-.h1 {
+/* .h1 {
   color: #3D3A8F ;
   font-size: 3rem;
   font-weight: bold;
   margin: 3rem auto;
   height: 20px;
-}
+} */
 .error {
   grid-column-start: 2;
   grid-column-end: 3;

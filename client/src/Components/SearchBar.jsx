@@ -48,7 +48,7 @@ function SerchBar() {
         <input className='input'
         name="name"
         type="text"
-        placeholder = "Buscar videogame..."
+        placeholder = "Search your videogame..."
         value={input}
         onChange = {handleInputChange}
         />

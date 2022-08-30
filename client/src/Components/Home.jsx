@@ -68,7 +68,7 @@ function Home() {
       <div className='fondoLoading'>
         <div className='fondoLoadingContenido'>
           
-              <h1 className='h1'>Videogames</h1>
+              {/* <h1 className='h1'>Videogames</h1> */}
           <div className='clase2'>
             <div className='contenidoTitulo'>
               
@@ -81,23 +81,23 @@ function Home() {
           <div className='clase1'>
             
             <Link to='/videogame'>
-               <button className='buttonSecond'>Crear Videojuego</button>
+               <button className='buttonSecond'>Create Videogame</button>
              </Link>
-              <button className='button' onClick={handleClick}>Recargar Videojuegos</button>
+              <button className='button' onClick={handleClick}>Refresh Videogames</button>
              
               <select
               className='select'
               defaultValue='Order'
               onChange={handleOrder}
             >
-              <option value='Order' disabled>ABC</option>
+              <option value='Order' disabled>A-Z</option>
               <option value='Asc'>A-Z</option>
               <option value='Desc'>Z-A</option>
             </select>
  
             <select
               className='select'
-              defaultValue='Rating'
+              defaultValue='Order'
               onChange={handleOrderRating}
             >
               <option value='Order' disabled>Rating</option>
@@ -110,7 +110,7 @@ function Home() {
               defaultValue='Genres'
               onChange={handleFilterGenres}
             >
-              <option className="options" disabled>Generos</option>
+              <option className="options" disabled>Genres</option>
               <option className="options" value="All">All</option>
               {
                 genres.map((e) => (
@@ -123,7 +123,7 @@ function Home() {
 
             <select
               className='select'
-              defaultValue='filtrados'
+              defaultValue='Origin'
               onChange={handleFilterCreated}
             >
               <option className="options" disabled>Origin</option>
